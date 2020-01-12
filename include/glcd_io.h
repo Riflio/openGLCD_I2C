@@ -110,8 +110,9 @@
 #define xGLCD_STATUS_BIT2PIN(bit)    glcdPinData ## bit
 #define GLCD_STATUS_BIT2PIN(bit)    xGLCD_STATUS_BIT2PIN(bit)    
 
-
-#ifdef  _AVRIO_AVRIO_ // ================= Begin _AVRIO_AVRIO_ specific code =============================
+#ifdef GLCDCFG_I2C
+	#include "glcd_io_i2c.h";
+#elif defined(_AVRIO_AVRIO_) // ================= Begin _AVRIO_AVRIO_ specific code =============================
 
 
 #ifndef OUTPUT

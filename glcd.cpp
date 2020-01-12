@@ -51,6 +51,9 @@ glcd::glcd()
 
 int glcd::Init(glcd_device_mode invert)
 {
+	#if defined(GLCDCFG_I2C)
+		glcdio_i2c_init();
+	#endif
 	return(glcd_Device::Init(invert));  
 }		
 

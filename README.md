@@ -10,6 +10,11 @@ different GLCD panels.
 The configuration mechanism allows using a broad range of GLCD panels
 and Arduino controllers.
 
+I2C Support
+===========
+Used 2 PCF8574 convertors.
+See /config/ks0108/PinConfig_ks0108-I2C.h  for details.
+
 LICENSE
 =======
 The Arduino openGLCD library files are part of the openGLCD project.

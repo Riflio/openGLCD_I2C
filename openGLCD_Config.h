@@ -141,6 +141,7 @@
 //#define GLCDCFG_GLCDCONFIG "build/debug/bap/config/Modagm1264f_TeensyBB128_Config.h"
 //#define GLCDCFG_GLCDCONFIG "build/debug/bap/config/ModDualvk5121_TeensyBB_Config.h"
 
+#define GLCDCFG_GLCDCONFIG "config/ks0108/PinConfig_ks0108-I2C.h"
 
 
 /*========================== Optional User Defines ==================================*/
